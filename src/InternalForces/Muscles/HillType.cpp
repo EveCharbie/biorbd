@@ -27,7 +27,7 @@ internal_forces::muscles::HillType::HillType() :
     m_cste_FlPE_1(std::make_shared<utils::Scalar>(10.0)),
     m_cste_FlPE_2(std::make_shared<utils::Scalar>(5.0)),
     m_cste_eccentricForceMultiplier(std::make_shared<utils::Scalar>(1.8)),
-    m_cste_damping(std::make_shared<utils::Scalar>(0.1)),
+    m_cste_damping(std::make_shared<utils::Scalar>(0.01)),
     m_cste_maxShorteningSpeed(std::make_shared<utils::Scalar>(10.0))
 {
     setType();
